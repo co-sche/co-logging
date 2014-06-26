@@ -15,7 +15,7 @@ var logger = new Logger({
   stream: '/var/log/myapp/myapp.log'
 });
 
-logger.info('Hello, 蟋蟀!');
+logger.info('Hello, こおろぎ！');
 ```
 
 ```sh
