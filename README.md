@@ -22,3 +22,13 @@ logger.info('Hello, 蟋蟀!');
 node app | node node_modules/co-logging
 # pretty logs..
 ```
+
+## options
+### level: String
+"DEBUG" | "INFO" | "WARN" | "ERROR" | "FATAL"
+(defaults to "ERROR")
+
+### stream: stream.Writable | String
+If value is a String then it's treated as file path.
+(defaults to process.stdout)
+
