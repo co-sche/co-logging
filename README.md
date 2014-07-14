@@ -26,7 +26,7 @@ node app | node node_modules/co-logging
 ## options
 ### level: String
 "DEBUG" | "INFO" | "WARN" | "ERROR" | "FATAL"
-(defaults to "ERROR")
+(defaults to "WARN")
 
 ### stream: stream.Writable | String
 If value is a String then it's treated as file path.
